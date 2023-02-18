@@ -1,0 +1,11 @@
+li {
+  list-style: none;
+}
+.buttonListItem {
+  padding: 5px 25px;
+  margin: 5px;
+  width: 100px;
+}
+.buttonListItem::first-letter {
+  text-transform: uppercase;
+}
